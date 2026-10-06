@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="earth" cx="38%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#5db4ff"/>
+      <stop offset="55%" stop-color="#1f6fd6"/>
+      <stop offset="100%" stop-color="#0a2a66"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#04070d"/>
+  <!-- Earth -->
+  <circle cx="32" cy="34" r="15" fill="url(#earth)"/>
+  <path d="M22 28c3-3 7-2 9 0s6 1 8-1" stroke="#7fe28a" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <path d="M25 40c4 2 9 2 13-1" stroke="#7fe28a" stroke-width="2.2" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <!-- Orbit ring -->
+  <ellipse cx="32" cy="32" rx="26" ry="11" fill="none" stroke="#ffb84d" stroke-width="2.2" transform="rotate(-22 32 32)" opacity="0.95"/>
+  <!-- Debris dots on orbit -->
+  <circle cx="10" cy="41" r="2.6" fill="#ff5d5d"/>
+  <circle cx="54" cy="22" r="2.2" fill="#ffe14d"/>
+  <circle cx="44" cy="49" r="1.8" fill="#7fd4ff"/>
+</svg>
