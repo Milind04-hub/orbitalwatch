@@ -4,7 +4,7 @@ A real-time 3D tracker that renders **18,000+ pieces of space junk and active
 satellites** orbiting Earth, propagated live from NORAD data with real orbital
 physics — from Starlink to decades-old debris clouds.
 
-![OrbitalWatch](assets/earth-night.jpg)
+![OrbitalWatch](assets/screenshot.webp)
 
 ## Features
 
